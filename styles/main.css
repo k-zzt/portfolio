@@ -6,3 +6,35 @@ p{
 body{
     background-color:#e9e9e9;
 }
+
+/* Navigation */
+
+/* Source: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+
+ul {
+  list-style-type: none; /* Removes the bullet point next to each item */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li a {
+  display: block;  /* Treats each anchor (link) element as if it were contained in a block */
+  color: white;
+  text-align: center;  /* Aligns text within the 'block' */
+  padding: 14px 16px;  /* Expands the width and height of the 'block' */
+  text-decoration: none;  /* Removes the underline */
+}
+
+li {
+  float: right;  /* All the blocks are lined up horizontally starting from the left side of the page */
+}
+
+li a:hover:not(.active) {  /* Hovering over the links will make the blocks change colour, except those in the .active class, in this case, the 'Home' tab, since we're looking at the index.html code. You would need to change this for each separate html page. */
+  background-color: #111;
+}
+
+.active {  /* the contacts tab is styled with a class, rather than an ID */
+  background-color: #ddAF50;
+}
