@@ -43,4 +43,5 @@ li a:hover:not(.active) {  /* Hovering over the links will make the blocks chang
 
 .boxed { /*box with text*/
   border: 2px solid white ;
+  background-color: thistle;
 }
