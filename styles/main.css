@@ -46,7 +46,7 @@ li a:hover:not(.active) {  /* Hovering over the links will make the blocks chang
   background-color: white;
 }
 
-#info {
-  color: #77dd77
+#info-c {
+  color: #77dd77;
 }
 
