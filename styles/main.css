@@ -36,5 +36,5 @@ li a:hover:not(.active) {  /* Hovering over the links will make the blocks chang
 }
 
 .active {  /* the contacts tab is styled with a class, rather than an ID */
-  background-color: #ddAF50;
+  background-color: #333;
 }
