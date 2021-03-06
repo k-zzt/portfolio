@@ -43,6 +43,8 @@ li a:hover:not(.active) {  /* Hovering over the links will make the blocks chang
 .boxed { /*source:https://www.thesitewizard.com/css/rectangular-box-border.shtml*/
   border: 2px solid grey ;
   background-color: white;
+  width: 30px;
+  height: 60px;
 }
 
 .name {
