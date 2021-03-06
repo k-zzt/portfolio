@@ -54,6 +54,6 @@ li a:hover:not(.active) {  /* Hovering over the links will make the blocks chang
 #info { 
   color: #77dd77; /*Colour for info under experience, about-me and projects.*/
   font-family: 'Brygada 1918', serif; 
-  font-size: 2em;
+  font-size: 1em;
 }
 
