@@ -45,7 +45,7 @@ li a:hover:not(.active) {  /* Hovering over the links will make the blocks chang
   background-color: white;
 }
 
-.name {
+li .name {
   color:white;
 }
 
