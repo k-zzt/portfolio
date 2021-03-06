@@ -1,4 +1,4 @@
-p{
+p #welcome{
   color: #648756;
   font-size: 3em;
   font-family: 'Brygada 1918', serif;
@@ -49,8 +49,8 @@ li a:hover:not(.active) {  /* Hovering over the links will make the blocks chang
   color:white;
 }
 
-#info { 
-  color: #77dd77; /*Colour for info under experience, about-me and projects.*/
-  font-family: 'Brygada 1918', serif; 
+p #info {
+  font-size: 1em ;
+  color:  #77dd77;
 }
 
