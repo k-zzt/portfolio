@@ -45,6 +45,7 @@ li a:hover:not(.active) {  /* Hovering over the links will make the blocks chang
   background-color: white;
   height: 500px;
   width: 500px;
+  font-size: 3em;
 }
 
 #box {
