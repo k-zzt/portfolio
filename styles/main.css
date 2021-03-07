@@ -1,6 +1,12 @@
 p {
-  color: #648756;
+  color: #88bda2 ;
   font-size: larger;
+  font-family: 'Brygada 1918', serif;
+}
+
+p.welcome {
+  color: #648756;
+  font-size: 3em;
   font-family: 'Brygada 1918', serif;
 }
 body{
