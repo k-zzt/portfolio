@@ -1,6 +1,6 @@
 p {
   color: #648756;
-  font-size: small;
+  font-size: larger;
   font-family: 'Brygada 1918', serif;
 }
 body{
@@ -45,7 +45,6 @@ li a:hover:not(.active) {  /* Hovering over the links will make the blocks chang
   background-color: white;
   height: 500px;
   width: 500px;
-  font-size: 3em;
 }
 
 #box {
