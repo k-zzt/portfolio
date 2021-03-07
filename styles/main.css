@@ -56,8 +56,8 @@ li a:hover:not(.active) {  /* Hovering over the links will make the blocks chang
 div#box {
   border: 2px solid grey ;
   background-color: white;
-  height: 400px;
-  width: 600px;
+  height: 500px;
+  width: 550px;
 }
 
 li#name {
