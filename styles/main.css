@@ -60,8 +60,14 @@ div#box {
   width: 600px;
 }
 
-li .name {
+li#name {
   color:white;
 }
 
+div#box2 {
+  border: 2px solid grey ;
+  background-color: white;
+  height: 400px;
+  width: 600px;
+}
 
