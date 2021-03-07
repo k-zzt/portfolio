@@ -69,5 +69,7 @@ div#box2 {
   background-color: white;
   height: 400px;
   width: 600px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
