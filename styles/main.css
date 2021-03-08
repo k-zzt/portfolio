@@ -85,7 +85,7 @@ div#box2 { /*experience*/
   background-color: white;
   height: 400px;
   width: 700px;
-  margin-left: 800px;
+ margin-left: 800px;
 }
 
 img#camera { /*image box*/
@@ -116,4 +116,16 @@ img#laptop {
    width: 500px;
    margin-top: -1000px;
    margin-right: 5cm;
+}
+
+a#laptop-link {
+    /*image box*/
+    border: 2px solid grey ;
+    background-color: white;
+    height: 400px;
+    width: 500px;
+    margin-top: -800px;
+    margin-right: 200px;
+    font-family: 'Brygada 1918', serif;
+    color: #000000;
 }
