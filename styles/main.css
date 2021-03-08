@@ -52,15 +52,15 @@ li a:hover:not(.active) {  /* Hovering over the links will make the blocks chang
   background-color: white;
   height: 300px;
   width: 400px;
-  margin-top: 500px;
-  margin-left: 500px;
+  margin-top: 200px;
+  margin-left: 550px;
 }
 
 div#box { /*about-me*/
   border: 2px solid grey ;
   background-color: white;
   height: 400px;
-  width: 700px;
+  width: 800px;
 }
 
 li#name {/*KL portfolio*/
