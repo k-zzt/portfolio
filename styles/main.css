@@ -56,6 +56,16 @@ li a:hover:not(.active) {  /* Hovering over the links will make the blocks chang
   margin-left: 500px;
 }
 
+a#background-link {
+  border: 2px solid grey ;
+  background-color: white;
+  height: 150px;
+  width: 580px;
+  margin-top: 200px;
+  font-family: 'Brygada 1918', serif;
+  color: #000000;
+}
+
 div#box { /*about-me*/
   border: 2px solid grey ;
   background-color: white;
