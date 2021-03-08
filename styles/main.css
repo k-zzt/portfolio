@@ -76,6 +76,7 @@ div#box2 { /*experience*/
   height: 400px;
   width: 700px;
   margin-left: 800px;
+  display: inline-block;
 }
 
 img#camera { /*image box*/
@@ -84,5 +85,6 @@ img#camera { /*image box*/
   height: 500px;
   width: 500px;
   display: inline-block;
+  margin-bottom: 800px;
 }
 
