@@ -114,17 +114,16 @@ img#laptop {
    background-color: white;
    height: 400px;
    width: 500px;
-   margin-top: -1000px;
-   margin-right: 5cm;
+   margin-top: -850px;
 }
 
 a#laptop-link {
     /*image box*/
     border: 2px solid grey ;
     background-color: white;
-    height: 400px;
-    width: 500px;
-    margin-top: -800px;
+    height: 20px;
+    width: 150px;
+    margin-top: -470px;
     margin-right: 200px;
     font-family: 'Brygada 1918', serif;
     color: #000000;
