@@ -29,7 +29,7 @@ ul {
 
 li a {
   display: block;  /* Treats each anchor (link) element as if it were contained in a block */
-  color: white;
+  color: #88bda2;
   text-align: center;  /* Aligns text within the 'block' */
   padding: 14px 16px;  /* Expands the width and height of the 'block' */
   text-decoration: none;  /* Removes the underline */
