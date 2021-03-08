@@ -51,9 +51,9 @@ li a:hover:not(.active) {  /* Hovering over the links will make the blocks chang
   border: 2px solid grey ;
   background-color: white;
   height: 300px;
-  width: 300px;
-  margin-top: 100px;
-  margin-left: 100px;
+  width: 400px;
+  margin-top: 200px;
+  margin-left: 200px;
 }
 
 div#box { /*about-me*/
@@ -74,6 +74,6 @@ div#box2 { /*experience*/
   background-color: white;
   height: 400px;
   width: 600px;
-  margin-left: 200px;
+  margin-left: 500px;
 }
 
