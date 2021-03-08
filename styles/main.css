@@ -50,10 +50,10 @@ li a:hover:not(.active) {  /* Hovering over the links will make the blocks chang
 .boxed { /*source:https://www.thesitewizard.com/css/rectangular-box-border.shtml*/
   border: 2px solid grey ;
   background-color: white;
-  height: 300px;
-  width: 650px;
+  height: 100px;
+  width: 550px;
   margin-top: 200px;
-  margin-left: 600px;
+  margin-left: 500px;
 }
 
 div#box { /*about-me*/
