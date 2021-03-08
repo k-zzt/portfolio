@@ -60,7 +60,7 @@ div#box { /*about-me*/
   border: 2px solid grey ;
   background-color: white;
   height: 420px;
-  width: 700px;
+  width: 650px;
 }
 
 li#name {/*KL portfolio*/
@@ -74,7 +74,7 @@ div#box2 { /*experience*/
   border: 2px solid grey ;
   background-color: white;
   height: 420px;
-  width: 700px;
+  width: 650px;
   margin-left: 900px;
 }
 
