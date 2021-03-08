@@ -83,9 +83,6 @@ img#camera { /*image box*/
   background-color: white;
   height: 500px;
   width: 550px;
-  margin-bottom: 500px;
+  margin-bottom: 700px;
 }
 
-a#camera-link {
-  margin-bottom: 300px;
-}
