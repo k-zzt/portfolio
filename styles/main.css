@@ -81,8 +81,8 @@ div#box2 { /*experience*/
 img#camera { /*image box*/
   border: 2px solid grey ;
   background-color: white;
-  height: 300px;
-  width: 350px;
+  height: 400px;
+  width: 450px;
   margin-top: -500px;
 }
 
