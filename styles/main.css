@@ -1,4 +1,4 @@
-p {
+p { /*info*/
   color: #77dd77 ;
   font-size: x-large;
   font-family: 'Brygada 1918', serif;
@@ -9,12 +9,13 @@ p.welcome {
   font-size: 3em;
   font-family: 'Brygada 1918', serif;
 }
-body{
+
+body{/*background image*/
     background-color:#e9e9e9;
     background-image: url(https://cdn.stocksnap.io/img-thumbs/960w/code-technology_9OQTUSUS0M.jpg);
 }
 
-/* Navigation */
+/* Navigation bar*/
 
 /* Source: https://www.w3schools.com/css/css_navbar_horizontal.asp */
 
@@ -55,20 +56,20 @@ li a:hover:not(.active) {  /* Hovering over the links will make the blocks chang
   margin-left: 100px;
 }
 
-div#box {
+div#box { /*about-me*/
   border: 2px solid grey ;
   background-color: white;
   height: 400px;
   width: 600px;
 }
 
-li#name {
+li#name {/*KL portfolio*/
   color:#88bda2;
   font-size: large;
   font-family: 'Brygada 1918', serif;
 }
 
-div#box2 {
+div#box2 { /*experience*/
   border: 2px solid grey ;
   background-color: white;
   height: 400px;
