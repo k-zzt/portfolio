@@ -98,3 +98,11 @@ a#camera-link {
   margin-left: 250px;
 }
 
+img#laptop {
+   /*image box*/
+   border: 2px solid grey ;
+   background-color: white;
+   height: 400px;
+   width: 500px;
+   margin-top: -1000px;
+}
