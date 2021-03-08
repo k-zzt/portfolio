@@ -57,6 +57,7 @@ li a:hover:not(.active) {  /* Hovering over the links will make the blocks chang
 }
 
 a#background-link {
+  /*background image link*/
   border: 2px solid grey ;
   background-color: white;
   height: 150px;
@@ -88,7 +89,7 @@ div#box2 { /*experience*/
  margin-left: 800px;
 }
 
-img#camera { /*image box*/
+img#camera { /*image box for camera*/
   border: 2px solid grey ;
   background-color: white;
   height: 400px;
@@ -98,6 +99,7 @@ img#camera { /*image box*/
 }
 
 a#camera-link {
+  /*link for camera image*/
   border: 2px solid grey ;
   background-color: white;
   height: 20px;
@@ -109,7 +111,7 @@ a#camera-link {
 }
 
 img#laptop {
-   /*image box*/
+   /*image box for laptop*/
    border: 2px solid grey ;
    background-color: white;
    height: 400px;
@@ -118,7 +120,7 @@ img#laptop {
 }
 
 a#laptop-link {
-    /*image box*/
+  /*link for laptop image*/
     border: 2px solid grey ;
     background-color: white;
     height: 20px;
