@@ -59,7 +59,7 @@ li a:hover:not(.active) {  /* Hovering over the links will make the blocks chang
 div#box { /*about-me*/
   border: 2px solid grey ;
   background-color: white;
-  height: 450px;
+  height: 420px;
   width: 700px;
 }
 
@@ -73,7 +73,7 @@ li#name {/*KL portfolio*/
 div#box2 { /*experience*/
   border: 2px solid grey ;
   background-color: white;
-  height: 450px;
+  height: 420px;
   width: 700px;
   margin-left: 900px;
 }
