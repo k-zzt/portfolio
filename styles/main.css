@@ -104,7 +104,7 @@ a#camera-link {
   background-color: white;
   height: 20px;
   width: 30px;
-  margin-top: -900px;
+  margin-top: -800px;
   font-family: 'Brygada 1918', serif;
   color: #000000;
   margin-left: 200px;
@@ -115,7 +115,7 @@ img#laptop {
    border: 2px solid grey ;
    background-color: white;
    height: 250px;
-   width: 300px;
+   width: 350px;
    margin-top: -630px;
 }
 
