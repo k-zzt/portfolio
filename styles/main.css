@@ -70,7 +70,7 @@ a#background-link {
 div#box { /*about-me*/
   border: 2px solid grey ;
   background-color: white;
-  height: 400px;
+  height: 300px;
   width: 700px;
 }
 
@@ -84,7 +84,7 @@ li#name {/*KL portfolio*/
 div#box2 { /*experience*/
   border: 2px solid grey ;
   background-color: white;
-  height: 400px;
+  height: 300px;
   width: 700px;
  margin-left: 800px;
 }
