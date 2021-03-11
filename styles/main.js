@@ -42,3 +42,19 @@ function f8() {
 function f9() {
     alert("PROJECT 9 COMING SOON");
 }
+
+function lights(){
+    let colour = prompt("What colour is the traffic light?");
+    if (colour === "red"){
+      alert("STOP!");
+    }
+    else if(colour === "green"){
+      alert("Go!");
+    }
+    else if (colour === "yellow"){
+      alert("Stop, if you can do so safely.");
+    }
+    else {
+      alert("You didn't enter red, yellow, or green.");
+    }
+  }
