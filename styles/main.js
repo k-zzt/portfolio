@@ -1,60 +1,45 @@
 //*Project 1*/
-function f1() {
+function button1() {
     alert("PROJECT 1 COMING SOON");
 }
 
 //*Project 2*/
-function f2() {
+function button2() {
     alert("PROJECT 2 COMING SOON");
 }
 
 //*Project 3*/
-function f3() {
+function button3() {
     alert("PROJECT 3 COMING SOON");
 }
 
 //*Project 4*/
-function f4() {
+function button4() {
     alert("PROJECT 4 COMING SOON");
 }
 
 //*Project 5*/
-function f5() {
+function button5() {
     alert("PROJECT 5 COMING SOON");
 }
 
 //*Project 6*/
-function f6() {
+function button6() {
     alert("PROJECT 6 COMING SOON");
 }
 
 //*Project 7*/
-function f7() {
+function button7() {
     alert("PROJECT 7 COMING SOON");
 }
 
 //*Project 8*/
-function f8() {
+function button8() {
     alert("PROJECT 8 COMING SOON");
 }
 
 //*Project 9*/
-function f9() {
+function button9() {
     alert("PROJECT 9 COMING SOON");
 }
 
-function lights(){
-    let colour = prompt("What colour is the traffic light?");
-    if (colour === "red"){
-      alert("STOP!");
-    }
-    else if(colour === "green"){
-      alert("Go!");
-    }
-    else if (colour === "yellow"){
-      alert("Stop, if you can do so safely.");
-    }
-    else {
-      alert("You didn't enter red, yellow, or green.");
-    }
-  }
