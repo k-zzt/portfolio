@@ -147,6 +147,6 @@ button { /*transition-duration source: https://www.w3schools.com/css/css3_button
 }
 
 .button:hover { /*hoverable button source:https://www.w3schools.com/css/css3_buttons.asp*/
-  background-color: #111; /* Green */
+  background-color: #111; /*hover colour*/
   color: white;
 }
