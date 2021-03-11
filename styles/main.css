@@ -56,12 +56,6 @@ li a:hover:not(.active) {  /* Hovering over the links will make the blocks chang
   margin-left: 500px;
 }
 
-.box-projects {
-  height: 100px;
-  width: 500px;
-  margin-top: 200px;
-  margin-left: 500px;
-}
 a#background-link {
   /*background image link*/
   border: 2px solid grey ;
