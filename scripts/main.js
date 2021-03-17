@@ -9,11 +9,9 @@ function largerNumber() {
         output = number2;
     }
     else if (number1==number2) {
-        output = "Both numbers are equal"
+        output = "Both numbers are equal";
     }
-   
-    document.getElementById("largerNumber") ;
-
+    document.getElementById("largerNumber").innerHTML = output ;
 }
 
 //Project 2
