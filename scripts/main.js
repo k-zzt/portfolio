@@ -1,6 +1,19 @@
-//Project 1
-function button1() {
-    alert("PROJECT 1 COMING SOON");
+//find the larger number 
+function largerNumber() {
+    var number1 = (prompt("Enter the first number: ")) ;
+    var number2 = (prompt("Enter the second number: ")) ;
+    if (number1 > number1) {
+    output = number1;
+    }
+    else if (number2 > number1) {
+        output = number2;
+    }
+    else if (number1==number2) {
+        output = "Both numbers are equal"
+    }
+   
+    document.getElementById("largerNumber") ;
+
 }
 
 //Project 2
