@@ -1,11 +1,27 @@
-//Project 1
-function button1() {
-    alert("PROJECT 1 COMING SOON");
-}
+//find the larger number 
+function largerNumber(){
+    var num1 = parseInt(prompt("Enter the first number: "));
+    var num2 = parseInt(prompt("Enter the second number: "));
+    var output = ""
+    if (num1 > num2){
+      output = num1;
+    } else if (num1 == num2){
+      output = "Both numbers are equal";
+    } else if (num1 < num2){
+      output = num2;  
+    } else {
+      output = "Invalid answer"
+    }
+    document.getElementById("largerNum").innerHTML = output;
+  }
 
-//Project 2
-function button2() {
-    alert("PROJECT 2 COMING SOON");
+//Find the sign of the product
+function signofProduct() {
+    var num1 = parseInt(prompt("Enter the first integer: "));
+    var num2 = parseInt(prompt("Enter the second integer: "));
+    var num3 = parseInt(prompt("Enter the third integer: "));
+    var x = num1*num2*num3
+   
 }
 
 //Project 3
