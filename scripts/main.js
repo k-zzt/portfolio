@@ -1,24 +1,9 @@
-//find the larger number 
-function largerNumber() {
-var num1 = parseInt(prompt("Enter the First Number"));
-var num2 = parseInt(prompt("Enter the Second Number"));
-var output = "" ;
-if (num1 > num2) {
-    output = num1;
-}
-else if (num2 > num1) {
-    output = num2;
-}
-else if (num1==num2) {
-    output = "Both Numbers are Equal";
-}
-else {
-    output = "Invalid Answer";
-}
-document.getElementsByClassName("button") == output
+//Project 1
+function button1() {
+    alert("PROJECT 1 COMING SOON");
 }
 
-//Find the sign of the product
+//Project 2
 function button2() {
     alert("PROJECT 2 COMING SOON");
 }
