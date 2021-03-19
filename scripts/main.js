@@ -2,7 +2,7 @@
 function largerNumber() {
 var num1 = parseInt(prompt("Enter the First Number"));
 var num2 = parseInt(prompt("Enter the Second Number"));
-var output = ""
+var output = "" ;
 if (num1 > num2) {
     output = num1;
 }
@@ -10,11 +10,12 @@ else if (num2 > num1) {
     output = num2;
 }
 else if (num1==num2) {
-    output = ("Both are Equal")
+    output = "Both Numbers are Equal";
 }
 else {
-    output = ("Invalid Answer")
+    output = "Invalid Answer";
 }
+document.getElementsByClassName("button") == output
 }
 
 //Find the sign of the product
