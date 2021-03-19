@@ -4,16 +4,19 @@ function largerNumber(){
     var num2 = parseInt(prompt("Enter the second number: "));
     var output = ""
     if (num1 > num2){
-      output = num1;
-    } else if (num1 == num2){
-      output = "Both numbers are equal";
-    } else if (num1 < num2){
-      output = num2;  
-    } else {
-      output = "Invalid answer"
-    }
-    document.getElementById("largerNum").innerHTML = output;
-  }
+output = num1;
+} 
+    else if (num1 == num2){
+output = "Both numbers are equal";
+} 
+    else if (num1 < num2){
+output = num2;  
+} 
+    else {
+output = "Invalid answer"
+}
+document.getElementById("largerNum").innerHTML = output;
+}
 
 //Find the sign of the product
 function signofProduct() {
@@ -24,7 +27,7 @@ function signofProduct() {
    
 }
 
-//Project 3
+//Sort from least to greatest
 function button3() {
     alert("PROJECT 3 COMING SOON");
 }
