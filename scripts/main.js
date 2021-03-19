@@ -1,21 +1,20 @@
 //find the larger number 
 function largerNumber() {
-    var num1 = parseInt(prompt("Enter the first number: "));
-    var num2 = parseInt(prompt("Enter the second number: "));
-  let output = ""
-    if (num1 > num2) {
+var num1 = parseInt(prompt("Enter the First Number"));
+var num2 = parseInt(prompt("Enter the Second Number"));
+var output = ""
+if (num1 > num2) {
     output = num1;
-    }
-    else if (num1==num2) {
-        output = "Both numbers are equal";
-    }
-    else if (num2 > num1) {
-        output = num2;
-    }
-    else () {
-        output = "Invalid";
-    }
- document.getElementById("largerNumber").innerHTML = output ;
+}
+else if (num2 > num1) {
+    output = num2;
+}
+else if (num1==num2) {
+    output = ("Both are Equal")
+}
+else {
+    output = ("Invalid Answer")
+}
 }
 
 //Find the sign of the product
