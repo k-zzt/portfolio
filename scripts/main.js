@@ -1,20 +1,24 @@
 //find the larger number 
 function largerNumber() {
-    var number1 = (prompt("Enter the first number: ")) ;
-    var number2 = (prompt("Enter the second number: ")) ;
-    if (number1 > number1) {
-    output = number1;
+    var num1 = parseInt(prompt("Enter the first number: "));
+    var num2 = parseInt(prompt("Enter the second number: "));
+  let output = ""
+    if (num1 > num2) {
+    output = num1;
     }
-    else if (number2 > number1) {
-        output = number2;
-    }
-    else if (number1==number2) {
+    else if (num1==num2) {
         output = "Both numbers are equal";
     }
-    document.getElementById("largerNumber").innerHTML = output ;
+    else if (num2 > num1) {
+        output = num2;
+    }
+    else () {
+        output = "Invalid";
+    }
+ document.getElementById("largerNumber").innerHTML = output ;
 }
 
-//Project 2
+//Find the sign of the product
 function button2() {
     alert("PROJECT 2 COMING SOON");
 }
