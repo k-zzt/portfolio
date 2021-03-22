@@ -37,8 +37,8 @@ document.getElementById("productsign").innerHTML = output;
 }
 
 //Sort from least to greatest
-function button3() {
-    alert("PROJECT 3 COMING SOON");
+function threeNumberSort() {
+    
 }
 
 //Project 4
