@@ -24,7 +24,16 @@ function signofProduct() {
     var num2 = parseInt(prompt("Enter the second integer: "));
     var num3 = parseInt(prompt("Enter the third integer: "));
     var x = num1*num2*num3
-   
+     if (x < 0) {
+       output = "Sign is -"
+   }
+     if (x > 0) {
+       output = "Sign is +"
+   }
+        else {
+            outpute = "Invalid answer"
+        }
+document.getElementById("productsign").innerHTML = output;
 }
 
 //Sort from least to greatest
