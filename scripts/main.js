@@ -30,9 +30,9 @@ function signofProduct() {
      if (x > 0) {
        output = "Sign is +"
    }
-        else {
-            outpute = "Invalid answer"
-        }
+    else {
+      output = "Invalid answer"
+    }
 document.getElementById("productsign").innerHTML = output;
 }
 
