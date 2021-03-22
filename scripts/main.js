@@ -25,13 +25,13 @@ function signofProduct() {
     var num3 = parseInt(prompt("Enter the third integer: "));
     var x = num1*num2*num3
      if (x < 0) {
-       output = "Sign is -"
+       output = "Sign is -";
    }
      if (x > 0) {
-       output = "Sign is +"
+       output = "Sign is +";
    }
     else {
-      output = "Invalid answer"
+      output = "Invalid answer";
     }
 document.getElementById("productsign").innerHTML = output;
 }
@@ -42,27 +42,27 @@ function threeNumberSort() {
 }
 
 //Project 4
-function button4() {
+function forSumThrees() {
     alert("PROJECT 4 COMING SOON");
 }
 
 //Project 5
-function button5() {
+function whileSumThrees() {
     alert("PROJECT 5 COMING SOON");
 }
 
 //Project 6
-function button6() {
+function tenFour() {
     alert("PROJECT 6 COMING SOON");
 }
 
 //Project 7
-function button7() {
+function centuryFromYear() {
     alert("PROJECT 7 COMING SOON");
 }
 
 //Project 8
-function button8() {
+function thirdAngle() {
     alert("PROJECT 8 COMING SOON");
 }
 
