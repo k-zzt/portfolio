@@ -34,16 +34,35 @@ document.getElementById("productsign").innerHTML = output;
 }
 
 //Sort from least to greatest. source: 
-function threeNumberSort() { 
+function threeNumberSort(num1 , num2 , num3) { 
+    var a = parseInt(prompt("Enter the first integer: "));
+    var b = parseInt(prompt("Enter the second integer: "));
+    var c = parseInt(prompt("Enter the third integer: "));
+    if(a < b && b < c) {
+        output = (a, b , c);
+      } 
+       else if (b < a && a < c) {
+        output = (b, a, c);
+      } 
+      else if(b < a && c < a) {
+        if(b < c){
+          output = (b, c, a); 
+        }
+    }
+      else if(b < a && c < a) {
+        output = (b, c, a); 
+      } 
+      else if(c < a && a < b) {
+        output = (c, a, b);
+      } 
+      else {
+        output = (c, b , a);
+      }
+ document.getElementById("numbersort").innerHTML = output;
 }
 
 //Sums the multiples of 3 under 1000
 function forSumThrees() {
-    var sum = 0;
-    for (var i = 0; i < 1000; i+3) {
-    output = sum += i;
-    }
-document.getElementById("sumthrees").innerHTML = output;
 }
 
 //Project 5
@@ -58,14 +77,10 @@ function tenFour() {
 
 //What century is it?
 function centuryFromYear() {
-    var year = parseInt(prompt("Enter a year: "));}
-    if (1 >= year <= 100) {
-        output = "1"
-    }
-    document.getElementById("century").innerHTML = output;
-}
+    var x = parseInt(prompt("Enter a year: "));
+} 
 
-//Project 8
+//Find the third angle
 function thirdAngle() {
     alert("PROJECT 8 COMING SOON");
 }
