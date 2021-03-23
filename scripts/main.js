@@ -34,15 +34,14 @@ document.getElementById("productsign").innerHTML = output;
 }
 
 //Sort from least to greatest. source: 
-function threeNumberSort() {
-for 
+function threeNumberSort() { 
 }
 
-//Sums the mulyiples of 3 under 1000
+//Sums the multiples of 3 under 1000
 function forSumThrees() {
     var sum = 0;
-    for (var i = 0; i < 1000; i++) {
-        
+    for (var i = 0; i < 1000; i+3) {
+    output = sum += i;
     }
 document.getElementById("sumthrees").innerHTML = output;
 }
