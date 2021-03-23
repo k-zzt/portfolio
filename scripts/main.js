@@ -79,7 +79,7 @@ function tenFour() {
     alert("PROJECT 6 COMING SOON");
 }
 
-//Finds what century it is with a year
+//Finds what century it is with a given year
 function centuryFromYear() {
     var x = parseInt(prompt("Enter a year: "));
 } 
