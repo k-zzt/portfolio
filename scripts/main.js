@@ -59,21 +59,27 @@ function threeNumberSort(num1 , num2 , num3) {
 document.getElementById("numbersort").innerHTML = output;
 }
  
-//Sums the multiples of 3 under 1000
+//For loop to Sum the multiples of 3 under 1000
 function forSumThrees() {
+    var i;
+for (i = 0; i < 1000; i+3) {
+  output = i;
+}
+document.getElementById("sumthrees").innerHTML = output;
 }
 
-//Project 5
+//While loop to sume the multiples of 2 under 1000
 function whileSumThrees() {
     alert("PROJECT 5 COMING SOON");
 }
 
-//Project 6
+//Reiterates integers fron 1-100 (multiples of 4 = FOUR , multiples of 10 = TEN, multiples of 4&10 = TenFour!)
+//logs all output to console
 function tenFour() {
     alert("PROJECT 6 COMING SOON");
 }
 
-//What century is it?
+//Finds what century it is with a year
 function centuryFromYear() {
     var x = parseInt(prompt("Enter a year: "));
 } 
