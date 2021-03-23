@@ -40,7 +40,11 @@ for
 
 //Sums the mulyiples of 3 under 1000
 function forSumThrees() {
-    alert("PROJECT 4 COMING SOON");
+    var sum = 0;
+    for (var i = 0; i < 1000; i++) {
+        
+    }
+document.getElementById("sumthrees").innerHTML = output;
 }
 
 //Project 5
