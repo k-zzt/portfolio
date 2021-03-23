@@ -82,6 +82,67 @@ function tenFour() {
 //Finds what century it is with a given year
 function centuryFromYear() {
     var x = parseInt(prompt("Enter a year: "));
+    if (x < 100 && x > 0) {
+        output = 1;
+    }
+    if (x > 101 && x < 200) {
+        output = 2;
+    }
+    if (x > 201 && x < 300) {
+        output = 3;
+    }
+    if (x > 301 && x < 400) {
+        output = 4;
+    }
+    if (x > 401 && x < 500) {
+        output = 5;
+    }
+    if (x > 501 && x < 600) {
+        output = 6;
+    }
+    if (x > 601 && x < 700) {
+        output = 7;
+    }
+    if (x > 701 && x < 800) {
+        output = 8;
+    }
+    if (x > 801 && x < 900) {
+        output = 9;
+    }
+    if (x > 901 && x < 1000) {
+        output = 10;
+    }
+    if (x > 1001 && x < 1200) {
+        output = 12;
+    }
+    if (x > 1201 && x < 1300) {
+        output = 13;
+    }
+    if (x > 1301 && x < 1400) {
+        output = 14;
+    }
+    if (x > 1401 && x < 1500) {
+        output = 15;
+    }
+    if (x > 1501 && x < 1600) {
+        output = 16;
+    }
+    if (x > 1601 && x < 1700) {
+        output = 17;
+    }
+    if (x > 1701 && x < 1800) {
+        output = 18;
+    }
+    if (x > 1801 && x < 1900) {
+        output = 19;
+    }
+    if (x > 1901 && x < 2000) {
+        output = 20;
+    }
+    if (x > 2001 && x < 2100) {
+        output = 21;
+    }
+document.getElementById("century").innerHTML = output;
 } 
 
 //Finds the third angle with two angles of a triangle
