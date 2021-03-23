@@ -141,7 +141,7 @@ button { /*transition-duration source: https://www.w3schools.com/css/css3_button
   font-size: 14px;
   font-family: 'Brygada 1918', serif;
   color: #000000;
-  height: 60px;
+  height: 70px;
   width: 90px;
   transition-duration: 0.4s;
 }

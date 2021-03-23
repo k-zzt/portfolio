@@ -38,8 +38,27 @@ function threeNumberSort(num1 , num2 , num3) {
     var x = parseInt(prompt("Enter the first integer: "));
     var y = parseInt(prompt("Enter the second integer: "));
     var z = parseInt(prompt("Enter the third integer: "));
+    if (x < y && y < z) {
+        output = (x + "," + y + "," + z);
+    }
+    if (x < z && z < y) {
+        output = (x + "," + z + "," + y);
+    }
+    if (y < x && x < z) {
+        output = (y + "," + x + "," + z);
+    }
+    if (y < z && z < x ) {
+        output = (y + "," + z + "," + x);
+    }
+    if (z < y && y < x) {
+        output = (z + "," + y + "," + x);
+    }
+    if (z < x && x < y) {
+        output = (z + "," + x + "," + y);
+    }
+document.getElementById("numbersort").innerHTML = output;
 }
-
+ 
 //Sums the multiples of 3 under 1000
 function forSumThrees() {
 }
