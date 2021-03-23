@@ -56,9 +56,13 @@ function tenFour() {
     alert("PROJECT 6 COMING SOON");
 }
 
-//Project 7
+//What century is it?
 function centuryFromYear() {
-    alert("PROJECT 7 COMING SOON");
+    var year = parseInt(prompt("Enter a year: "));}
+    if (1 >= year <= 100) {
+        output = "1"
+    }
+    document.getElementById("century").innerHTML = output;
 }
 
 //Project 8
