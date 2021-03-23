@@ -30,23 +30,15 @@ function signofProduct() {
      if (x > 0) {
        output = "Sign is +";
    }
-    else {
-      output = "Invalid answer";
-    }
 document.getElementById("productsign").innerHTML = output;
 }
 
 //Sort from least to greatest. source: 
 function threeNumberSort() {
-    var num1 = parseInt(prompt("Enter the first number: "));
-    var num2 = parseInt(prompt("Enter the second number: "));
-    var num3 = parseInt(prompt("Enter the third number: "));
-    var numbers = [num1 , num2 , num3];
-    numbers.sort(function(a, b){return a-b});
-    document.getElementById("numbersort").innerHTML = output;
+for 
 }
 
-//Project 4
+//Sums the mulyiples of 3 under 1000
 function forSumThrees() {
     alert("PROJECT 4 COMING SOON");
 }
