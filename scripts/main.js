@@ -1,4 +1,4 @@
-//find the larger number 
+//finds the larger number out of two numbers
 function largerNumber(){
     var num1 = parseInt(prompt("Enter the first number: "));
     var num2 = parseInt(prompt("Enter the second number: "));
@@ -18,12 +18,12 @@ output = "Invalid answer"
 document.getElementById("largerNum").innerHTML = output;
 }
 
-//Find the sign of the product
+//Find the sign of the product of three integers
 function signofProduct() {
-    var num1 = parseInt(prompt("Enter the first integer: "));
-    var num2 = parseInt(prompt("Enter the second integer: "));
-    var num3 = parseInt(prompt("Enter the third integer: "));
-    var x = num1*num2*num3
+    var int1 = parseInt(prompt("Enter the first integer: "));
+    var int2 = parseInt(prompt("Enter the second integer: "));
+    var int3 = parseInt(prompt("Enter the third integer: "));
+    var x = int1*int2*int3
      if (x < 0) {
        output = "Sign is -";
    }
@@ -33,32 +33,11 @@ function signofProduct() {
 document.getElementById("productsign").innerHTML = output;
 }
 
-//Sort from least to greatest. source: 
+//Sorts three numbers from least to greatest. 
 function threeNumberSort(num1 , num2 , num3) { 
-    var a = parseInt(prompt("Enter the first integer: "));
-    var b = parseInt(prompt("Enter the second integer: "));
-    var c = parseInt(prompt("Enter the third integer: "));
-    if(a < b && b < c) {
-        output = (a, b , c);
-      } 
-       else if (b < a && a < c) {
-        output = (b, a, c);
-      } 
-      else if(b < a && c < a) {
-        if(b < c){
-          output = (b, c, a); 
-        }
-    }
-      else if(b < a && c < a) {
-        output = (b, c, a); 
-      } 
-      else if(c < a && a < b) {
-        output = (c, a, b);
-      } 
-      else {
-        output = (c, b , a);
-      }
- document.getElementById("numbersort").innerHTML = output;
+    var x = parseInt(prompt("Enter the first integer: "));
+    var y = parseInt(prompt("Enter the second integer: "));
+    var z = parseInt(prompt("Enter the third integer: "));
 }
 
 //Sums the multiples of 3 under 1000
@@ -80,9 +59,24 @@ function centuryFromYear() {
     var x = parseInt(prompt("Enter a year: "));
 } 
 
-//Find the third angle
+//Finds the third angle with two angles of a triangle
 function thirdAngle() {
-    alert("PROJECT 8 COMING SOON");
+    var angle1 = parseInt(prompt("Enter Angle one: "));
+    var angle2 = parseInt(prompt("Enter Angle two: "));
+    var angletotal = 180 - angle1 - angle2;
+    if (angletotal <= 180) {
+       output = angletotal;
+    }
+    if (angle1 < 0) {
+        output = "Invalid. Enter two angles of a triangle";
+    }
+    if (angle2 < 0) {
+        output = "Invalid. Enter two angles of a triangle";
+    }
+    if (angletotal < 0) {
+        output = "Invalid. Enter two angles of a triangle";
+    }
+document.getElementById("angles").innerHTML = output;
 }
 
 //Project 9
