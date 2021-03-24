@@ -85,9 +85,7 @@ document.getElementById("whileloop").innerHTML = output;
 //Reiterates integers fron 1-100 (multiples of 4 = FOUR , multiples of 10 = TEN, multiples of 4&10 = TenFour!)
 //logs all output to console
 function tenFour() {
-    var x = 0;
-    for (i = 0; i<= 100; i++) {
-        console.log(i)
+    for (i = 1; i < 100; i++) {
         if (i % 4 === 0) {
             console.log("FOUR");
         }
@@ -96,6 +94,9 @@ function tenFour() {
         }
         if (i % 4 === 0 && i % 10 === 0) {
             console.log("TenFour!");
+        }
+        else {
+            console.log(i);
         }
     }
 }
