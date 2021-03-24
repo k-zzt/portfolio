@@ -72,10 +72,10 @@ document.getElementById("sumthrees").innerHTML = output;
 
 //While loop to sum the multiples of 2 under 1000. source: https://www.w3schools.com/js/js_loop_while.asp
 function whileSumThrees() {
-    var i = 0
+    var sum = 0
     while (i < 1000) {
      if (i % 3 === 0) {
-        output += i;
+        output = sum += i;
         i++;
  }
     }
@@ -85,7 +85,7 @@ document.getElementById("whileloop").innerHTML = output;
 //Reiterates integers fron 1-100 (multiples of 4 = FOUR , multiples of 10 = TEN, multiples of 4&10 = TenFour!)
 //logs all output to console. The way this code runs similar to the for loop forsumofthrees().
 function tenFour() {
-    for (i = 1; i <= 100; i++) {
+    for (i = 1; i < 101; i++) {
         if (i % 4 === 0) {
             console.log("FOUR");
         }
