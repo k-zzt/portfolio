@@ -74,9 +74,9 @@ document.getElementById("sumthrees").innerHTML = output;
 function whileSumThrees() {
     var sum = 0
     while (i < 1000) {
- if (i % 3 === 0) {
-    output += i;
-    i++;
+     if (i % 3 === 0) {
+        output += i;
+        i++;
  }
     }
 document.getElementById("whileloop").innerHTML = output;
