@@ -83,7 +83,7 @@ document.getElementById("whileloop").innerHTML = output;
 }
 
 //Reiterates integers fron 1-100 (multiples of 4 = FOUR , multiples of 10 = TEN, multiples of 4&10 = TenFour!)
-//logs all output to console
+//logs all output to console. The way this code runs similar to the for loop forsumofthrees().
 function tenFour() {
     for (i = 1; i <= 100; i++) {
         if (i % 4 === 0) {
