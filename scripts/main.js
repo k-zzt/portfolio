@@ -86,14 +86,14 @@ document.getElementById("whileloop").innerHTML = output;
 //logs all output to console. The way this code runs similar to the for loop forsumofthrees().
 function tenFour() {
     for (i = 1; i <= 100; i++) {
-        if (i % 4 === 0) {
+        if (i % 4 === 0 && i % 10 === 0) {
+            console.log("TenFour!");
+        }
+        else if (i % 4 === 0) {
             console.log("FOUR");
         }
         else if (i % 10 === 0) {
             console.log("TEN");
-        }
-        else if (i % 4 === 0 && i % 10 === 0) {
-            console.log("TenFour!");
         }
         else {
             console.log(i);
