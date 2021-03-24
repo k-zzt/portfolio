@@ -72,7 +72,7 @@ document.getElementById("sumthrees").innerHTML = output;
 
 //While loop to sum the multiples of 2 under 1000. source: https://www.w3schools.com/js/js_loop_while.asp
 function whileSumThrees() {
-    var sum = 0
+    var i = 0
     while (i < 1000) {
      if (i % 3 === 0) {
         output += i;
