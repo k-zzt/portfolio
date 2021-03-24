@@ -59,24 +59,45 @@ function threeNumberSort(num1 , num2 , num3) {
 document.getElementById("numbersort").innerHTML = output;
 }
  
-//For loop to Sum the multiples of 3 under 1000
+//For loop to Sum the multiples of 3 under 1000. source:https://www.w3schools.com/js/js_loop_for.asp
 function forSumThrees() {
-    var i;
-for (i = 0; i < 1000; i+3) {
-  output = i;
+    var sum = 0;
+for (i = 0; i < 1000; i++) {
+    if(i % 3 === 0) {
+        output = sum += i;
+    }
 }
 document.getElementById("sumthrees").innerHTML = output;
 }
 
-//While loop to sume the multiples of 2 under 1000
+//While loop to sum the multiples of 2 under 1000. source: https://www.w3schools.com/js/js_loop_while.asp
 function whileSumThrees() {
-    alert("PROJECT 5 COMING SOON");
+    var sum = 0
+    while (i < 1000) {
+ if (i % 3 === 0) {
+    output += i;
+    i++;
+ }
+    }
+document.getElementById("whileloop").innerHTML = output;
 }
 
 //Reiterates integers fron 1-100 (multiples of 4 = FOUR , multiples of 10 = TEN, multiples of 4&10 = TenFour!)
 //logs all output to console
 function tenFour() {
-    alert("PROJECT 6 COMING SOON");
+    var x = 0;
+    for (i = 0; i<= 100; i++) {
+        console.log(i)
+        if (i % 4 === 0) {
+            console.log("FOUR");
+        }
+        if (i % 10 === 0) {
+            console.log("TEN");
+        }
+        if (i % 4 === 0 && i % 10 === 0) {
+            console.log("TenFour!");
+        }
+    }
 }
 
 //Finds what century it is with a given year
@@ -144,9 +165,6 @@ function centuryFromYear() {
     }
     if (x >= 2001 && x <= 2100) {
         output = 21;
-    }
-    else {
-        output = "Invalid Input. Insert a year."
     }
 document.getElementById("century").innerHTML = output;
 } 
