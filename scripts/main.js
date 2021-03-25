@@ -61,10 +61,10 @@ document.getElementById("numbersort").innerHTML = output;
  
 //For loop to Sum the multiples of 3 under 1000. source:https://www.w3schools.com/js/js_loop_for.asp
 function forSumThrees() {
-    var sum = 0;
+    var x = 0;
 for (i = 0; i < 1000; i++) {
     if(i % 3 === 0) {
-        output = sum += i;
+        output = x += i;
     }
 }
 document.getElementById("sumthrees").innerHTML = output;
@@ -72,10 +72,10 @@ document.getElementById("sumthrees").innerHTML = output;
 
 //While loop to sum the multiples of 2 under 1000. source: https://www.w3schools.com/js/js_loop_while.asp
 function whileSumThrees() {
-    var sum = 0
+    var x = 0
     while (i < 1000) {
      if (i % 3 === 0) {
-        output = sum += i;
+        output = i;
         i++;
  }
     }
