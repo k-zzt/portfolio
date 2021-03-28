@@ -59,10 +59,10 @@ function threeNumberSort(num1 , num2 , num3) {
 document.getElementById("numbersort").innerHTML = output;
 }
  
-//For loop to Sum the multiples of 3 under 1000. source:https://www.w3schools.com/js/js_loop_for.asp
+//For loop to Sum the multiples of 3 under 1000. 
 function forSumThrees() {
     var x = 0;
-for (i = 0; i < 1000; i++) {
+for (let i = 0; i < 1000; i++) {
     if(i % 3 === 0) {
         output = x += i;
     }
@@ -70,12 +70,12 @@ for (i = 0; i < 1000; i++) {
 document.getElementById("sumthrees").innerHTML = output;
 }
 
-//While loop to sum the multiples of 2 under 1000. source: https://www.w3schools.com/js/js_loop_while.asp
+//While loop to sum the multiples of 3 under 1000. 
 function whileSumThrees() {
-    var x = 0
+    var i = 0;
     while (i < 1000) {
      if (i % 3 === 0) {
-        output = x += i;
+        output = i;
         i++;
  }
     }
