@@ -193,7 +193,7 @@ function thirdAngle() {
 document.getElementById("angles").innerHTML = output;
 }
 
-//Project 9
-function button9() {
-    alert("PROJECT 9 COMING SOON");
+//encryption
+function encrypt() {
+    
 }
