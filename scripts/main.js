@@ -64,7 +64,7 @@ function forSumThrees() {
     var forThrees = 0;
 for (let i = 0; i < 1000; i++) {
     if(i % 3 === 0) {
-        output = forThrees + i;
+        output = forThrees += i;
     }
 }
 document.getElementById("sumthrees").innerHTML = output;
