@@ -187,6 +187,9 @@ function thirdAngle() {
     if (angletotal < 0) {
         output = "Invalid. Enter two angles of a triangle";
     }
+    if (angletotal == 180) {
+        output = "Not a triangle. Enter two angles of a triangle";
+    }
 document.getElementById("angles").innerHTML = output;
 }
 
