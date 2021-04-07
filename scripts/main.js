@@ -61,10 +61,10 @@ document.getElementById("numbersort").innerHTML = output;
  
 //For loop to Sum the multiples of 3 under 1000. 
 function forSumThrees() {
-    var x = 0;
+    var forThrees = 0;
 for (let i = 0; i < 1000; i++) {
     if(i % 3 === 0) {
-        output = x += i;
+        output = forThrees + i;
     }
 }
 document.getElementById("sumthrees").innerHTML = output;
