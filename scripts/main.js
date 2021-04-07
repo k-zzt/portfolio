@@ -73,13 +73,14 @@ document.getElementById("sumthrees").innerHTML = output;
 //While loop to sum the multiples of 3 under 1000. 
 function whileSumThrees() {
     var i = 0;
+    var output = 0;
     while (i < 1000) {
-     if (i % 3 === 0) {
-        output = i;
+        if (i % 3 === 0) {
+            output = output + i;
+        }
         i++;
- }
     }
-document.getElementById("whileloop").innerHTML = output;
+    document.getElementById("whileloop").innerHTML = output;
 }
 
 //Reiterates integers fron 1-100 (multiples of 4 = FOUR , multiples of 10 = TEN, multiples of 4&10 = TenFour!)
