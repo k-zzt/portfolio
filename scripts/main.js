@@ -195,5 +195,10 @@ document.getElementById("angles").innerHTML = output;
 
 //encryption
 function encrypt() {
-    
+    var message = prompt("Enter a plaintext message");
+}
+
+//decryption
+function decrypt() {
+    var message = prompt("Enter a ciphertext message");
 }
