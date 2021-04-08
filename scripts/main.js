@@ -4,18 +4,18 @@ function largerNumber(){
     var num2 = parseInt(prompt("Enter the second number: "));
     var output = ""
     if (num1 > num2){
-output = num1;
-} 
+        output = num1;
+    } 
     else if (num1 == num2){
-output = "Both numbers are equal";
-} 
+        output = "Both numbers are equal";
+    } 
     else if (num1 < num2){
-output = num2;  
-} 
+        output = num2;  
+    } 
     else {
-output = "Invalid answer"
-}
-document.getElementById("largerNum").innerHTML = output;
+        output = "Invalid answer"
+    }
+    document.getElementById("largerNum").innerHTML = output;
 }
 
 //Find the sign of the product of three integers
@@ -26,11 +26,11 @@ function signofProduct() {
     var x = int1*int2*int3
      if (x < 0) {
        output = "Sign is -";
-   }
+    }
      if (x > 0) {
        output = "Sign is +";
-   }
-document.getElementById("productsign").innerHTML = output;
+    }
+    document.getElementById("productsign").innerHTML = output;
 }
 
 //Sorts three numbers from least to greatest. 
@@ -56,18 +56,18 @@ function threeNumberSort(num1 , num2 , num3) {
     if (z < x && x < y) {
         output = (z + "," + x + "," + y);
     }
-document.getElementById("numbersort").innerHTML = output;
+    document.getElementById("numbersort").innerHTML = output;
 }
  
 //For loop to Sum the multiples of 3 under 1000. 
 function forSumThrees() {
     var forThrees = 0;
-for (let i = 0; i < 1000; i++) {
-    if(i % 3 === 0) {
-        output = forThrees += i;
+    for (let i = 0; i < 1000; i++) {
+        if(i % 3 === 0) {
+         output = forThrees += i;
+        }
     }
-}
-document.getElementById("sumthrees").innerHTML = output;
+    document.getElementById("sumthrees").innerHTML = output;
 }
 
 //While loop to sum the multiples of 3 under 1000. 
@@ -168,7 +168,7 @@ function centuryFromYear() {
     if (x >= 2001 && x <= 2100) {
         output = 21;
     }
-document.getElementById("century").innerHTML = output;
+    document.getElementById("century").innerHTML = output;
 } 
 
 //Finds the third angle with two angles of a triangle
@@ -191,15 +191,21 @@ function thirdAngle() {
     if (angletotal == 0) {
         output = "Not a triangle. Enter two angles of a triangle";
     }
-document.getElementById("angles").innerHTML = output;
+    document.getElementById("angles").innerHTML = output;
 }
 
 //encryption
 function encrypt() {
     var message = prompt("Enter a plaintext message");
+    var ciphertext = "";
+    ciphertext = plaintext.slice(message);
+    output = ;
 }
 
 //decryption
 function decrypt() {
     var message = prompt("Enter a ciphertext message");
+    var plaintext = "";
+    plaintext = ciphertext.replace();
+    output = ;
 }
