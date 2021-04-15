@@ -198,14 +198,10 @@ function thirdAngle() {
 function encrypt() {
     var message = prompt("Enter a plaintext message");
     var ciphertext = "";
-    ciphertext = plaintext.slice(message);
-    output = ;
 }
 
 //decryption
 function decrypt() {
     var message = prompt("Enter a ciphertext message");
     var plaintext = "";
-    plaintext = ciphertext.replace();
-    output = ;
 }
