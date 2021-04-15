@@ -148,6 +148,6 @@ button { /*transition-duration source: https://www.w3schools.com/css/css3_button
 
 .button:hover { /*hoverable button source:https://www.w3schools.com/css/css3_buttons.asp*/
   background-color: #b8d8fa; /*hover colour*/
-  color: white;
+  color: black;
 }
 
