@@ -196,15 +196,16 @@ function thirdAngle() {
 
 //encryption
 function encrypt() {
-    var message = prompt("Enter a plaintext message");
+    var pmessage = prompt("Enter a plaintext message");
     var ciphertext = "";
-    var out = ciphertext.replace(a, b)
-    output = document.getElementById("encryption").innerHTML
+    ciphertext =  pmessage.replace(/a/g , "ay");
+    document.getElementById("edbox").innerHTML = ciphertext.toUpperCase();
 }
 
 //decryption
 function decrypt() {
-    var message = prompt("Enter a ciphertext message");
+    var cmessage = prompt("Enter a ciphertext message");
     var plaintext = "";
-    
+    plaintext = cmessage.replace(/ay/g , "a");
+    document.getElementById("edbox").innerHTML = plaintext.toLowerCase();
 }

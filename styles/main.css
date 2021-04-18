@@ -151,3 +151,15 @@ button { /*transition-duration source: https://www.w3schools.com/css/css3_button
   color: black;
 }
 
+div#ed {
+margin-left: 500px;
+}
+
+div#edbox {
+  border: 2px solid grey ;
+  background-color: white;
+  height: 200px;
+  width: 600px;
+  margin-top: 25px;
+  margin-left: 400px;
+}
