@@ -206,6 +206,6 @@ function encrypt() {
 function decrypt() {
     var cmessage = prompt("Enter a ciphertext message");
     var plaintext = "";
-    plaintext = cmessage.replace(/ay/g , "a");
+    plaintext = cmessage.replace(/AY/g , "a");
     document.getElementById("edbox").innerHTML = plaintext.toLowerCase();
 }
