@@ -194,7 +194,7 @@ function thirdAngle() {
     document.getElementById("angles").innerHTML = output;
 }
 
-//encryption
+//encryption (encrypts a plain text into a cipher text)
 function encrypt() {
     var pmessage = prompt("Enter a plaintext message");
     var ciphertext = "";
@@ -202,7 +202,7 @@ function encrypt() {
     document.getElementById("edbox").innerHTML = ciphertext.toUpperCase();
 }
 
-//decryption
+//decryption (decrypts the cipher text back into the plain text)
 function decrypt() {
     var cmessage = prompt("Enter a ciphertext message");
     var plaintext = "";
