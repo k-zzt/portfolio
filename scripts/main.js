@@ -199,7 +199,7 @@ function encrypt() {
     var pmessage = prompt("Enter a plaintext message");
     var ciphertext = "";
     ciphertext =  pmessage.replace(/a/g , "aye").replace(/b/g , "bay").replace("e" , "ey");
-    document.getElementById("edbox").innerHTML = ciphertext.toUpperCase().split("");
+    document.getElementById("edbox").innerHTML = ciphertext.toUpperCase();
 }
 
 //decryption (decrypts the cipher text back into the plain text)
