@@ -198,7 +198,7 @@ function thirdAngle() {
 function encrypt() {
     var pmessage = prompt("Enter a plaintext message");
     var ciphertext = "";
-    ciphertext =  pmessage.replace(/a/g , "ay").replace(/b/g , "bay").replace(/e/g , "ey");
+    ciphertext =  pmessage.replace(/a/g , "ayE").replace(/b/g , "bay").replace(/e/g , "ey");
     document.getElementById("edbox").innerHTML = ciphertext.toUpperCase();
 }
 
@@ -206,6 +206,6 @@ function encrypt() {
 function decrypt() {
     var cmessage = prompt("Enter a ciphertext message");
     var plaintext = "";
-    plaintext = cmessage.replace(/BAY/g , "b").replace(/EY/g , "e").replace(/AY/g , "a");
+    plaintext = cmessage.replace(/BAY/g , "b").replace(/EY/g , "e").replace(/AYE/g , "a");
     document.getElementById("edbox").innerHTML = plaintext.toLowerCase();
 }
